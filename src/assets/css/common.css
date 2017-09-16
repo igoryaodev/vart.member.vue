@@ -1,0 +1,85 @@
+html,body,div,ul,li{
+	margin: 0;
+	padding: 0;
+    font-size: 12px;
+}
+ul,li{
+	list-style: none;
+}
+li{
+	padding: 10px 0;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+div::-webkit-scrollbar,
+#app::-webkit-scrollbar{
+	-webkit-overflow-scrolling: touch;
+	width: 0;
+	height: 0;
+	display: none;
+}
+p{
+	margin: 5px;
+	line-height: 1.5em;
+}
+.font-arial{
+	font-family: arial !important;
+}
+.font-theme{
+	color:#852C2B;
+}
+.border-theme::before,
+.border-theme::after,
+.border-theme{
+	border-color:#852C2B !important;
+}
+.font-theme:hover{
+	color:#852C2B;
+}
+.btn-default{
+	display: block;
+	width:100px;
+	line-height: 32px;
+	text-align: center;
+	border:0;
+	cursor: pointer;
+}
+.btn-theme{
+	color: #fff;
+	background: #852C2B;
+	cursor: pointer;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+.mint-swipe-items-wrap > div.is-active{
+	position: relative !important;
+}
+.fix-bottom{
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    width: 100%;
+}
+.flex-box{
+	display: flex;
+}
+.pre-line{
+	white-space: pre-line;
+}
+.pre{
+	white-space: pre;
+}
+
+/*theme*/
+
+body{
+	box-sizing: border-box;
+	background: #f5f5f5;
+	/*padding: 10px;*/
+}
+
